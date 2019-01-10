@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
 
 export default class LiveRunningStatus extends Component {
   render() {
@@ -29,10 +29,10 @@ export default class LiveRunningStatus extends Component {
                         </FormGroup>
                         </div>
                         <div className="col-md submitbtn">
-                            <Button color="info">Submit</Button>
+                            <Button color="info">Check Live Running Status</Button>
                         </div>
                     </div>
-                    </Form>
+                </Form>
         </div>
         </section>
     </div>
